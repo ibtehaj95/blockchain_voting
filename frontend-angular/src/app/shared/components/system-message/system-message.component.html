@@ -1,0 +1,18 @@
+<div class="system-message boxshadow" [@load]>
+    <div class="header" 
+    [ngClass]="{
+        'error': messageType === systemMessageType.ERROR, 
+        'warning': messageType === systemMessageType.WARNING, 
+        'success': messageType === systemMessageType.SUCCESS ,
+        'notification': messageType === systemMessageType.NOTIFICATION
+        }"
+    >  
+        <mat-icon *ngIf="messageType === systemMessageType.ERROR" style="margin-right: 0.7rem;">error_outline</mat-icon> 
+        System
+        <mat-icon *ngIf="messageType === systemMessageType.SUCCESS" style="margin-left: 0.7rem;">done_outline</mat-icon>
+    </div>
+    <div class="message" >
+        <span class="break-word" [innerHTML]="getTrustedHTML()"></span>
+    </div>
+    <button mat-raised-button style="background-color: lightgray;" class="button" (click)="close()"> Ok </button>
+</div>

@@ -1,0 +1,7 @@
+https://web3js.readthedocs.io/en/v3.0.0-rc.5/ for the most authentic information on Web3 library functions
+https://www.youtube.com/watch?v=FNfcdkPb4rg for getting started with the Web3 library. May be outdated
+https://youtu.be/WvEFunrhCtk for getting started with the Web3 library (Hindi)
+https://remix.ethereum.org/ for trying out Ethereum contracts
+https://www.youtube.com/watch?v=_ATi4A5Bl1s for getting started with the Web3 library. May be outdated
+https://ethereum.stackexchange.com/questions/72459/member-name-not-found-or-not-visible-after-argument-dependent-lookup-in-string, https://ethereum.stackexchange.com/questions/94720/how-to-get-array-that-contain-certain-value, https://stackoverflow.com/questions/49345903/copying-of-type-struct-memory-memory-to-storage-not-yet-supported, https://ethereum.stackexchange.com/questions/117658/copying-of-type-struct-memory-memory-to-storage-not-yet-supported/117661#117661?newreg=a49ea5b0d610477fb7af554bde8d620b for solving problems with using complex data types in Solidity
+https://docs.web3js.org/guides/smart_contracts/deploying_and_interacting_with_smart_contracts for a simple but accurate tutorial and example code

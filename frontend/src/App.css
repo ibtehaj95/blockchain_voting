@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: whitesmoke;
+  min-height: 100vh;
+}
+
+input{
+  margin: 0.5%;
+  padding: 0.2%;
+}
+
+input[type=submit]{
+  padding: 0.5% 1%;
+  background-color: rgba(174, 169, 169, 0.755);
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 0px none;
+}
+
+form{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  margin: 2% 2%;
+  padding: 0.5% 1%;
+  background-color: rgba(174, 169, 169, 0.755);
+  border-radius: 2px;
+  color: black;
+}
+
+.primary-container{
+  margin: 1%;
+  padding: 0.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.secondary-container-voters{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1%;
+}
+
+.tertiary-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  padding: 1% 2%;
+  background-color: rgba(174, 169, 169, 0.755);
+  border: none;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.btn-del{
+  background-color: rgb(200, 0, 0);
+  color: white;
+}
+
+.btn-confirm{
+  background-color: rgb(19, 100, 19);
+  color: white;
+}
+
+.btn-logout{
+  background-color: black;
+  color: white;
+}
+
+.btn-startstop{
+  background-color: rgb(39, 106, 231);
+  color: white;
+}
+
+.campaign-links{
+  padding: 0.1%;
+  margin: 0.1% 0%;
+  background-color: whitesmoke;
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.home-greeting{
+  padding: 0.1%;
+  margin: 0.1% 0%;
+  background-color: whitesmoke;
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px; 
+}
+
+.user-mgmt-entry{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1% 0%;
+}
+
+.cmpgn-prtcpnts-pnl{
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0.5% 0%;
+}

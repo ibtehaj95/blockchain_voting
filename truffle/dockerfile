@@ -1,0 +1,7 @@
+FROM trufflesuite/ganache
+
+WORKDIR /frontend/src/components/blockchain
+
+RUN npm install -g truffle
+
+CMD ["truffle", "migrate"]

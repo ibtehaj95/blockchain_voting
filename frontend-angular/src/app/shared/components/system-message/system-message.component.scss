@@ -1,0 +1,72 @@
+.system-message {
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -10%);
+    z-index: 100000;
+    background-color: white;
+    padding-bottom: 1rem;
+    /* -webkit-box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.75); */
+  }
+  .header {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .message {
+    /* display: flex;
+    align-items: center; */
+    max-width: 600px;
+    overflow: auto;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    max-height: 600px;
+  }
+
+
+  .break-word {
+    display: inline-block;
+    width: 100%;
+    word-wrap: break-all;
+    overflow-wrap: break-word;
+  }
+  
+  .close-message {
+    float: right;
+  }
+  
+  .close-message:hover,
+  .button:hover {
+    /* transform: scale(1.1); */
+    cursor: pointer;
+  }
+  
+  .button {
+    margin-right: 0.5rem;
+    /* min-width: 100px; */
+    text-align: center;
+    float: right;
+  }
+  
+  .error {
+    background-color: red;
+  }
+  
+  .notification {
+    background-color: lightblue
+  }
+  
+  .success {
+    background-color: rgb(43, 236, 43);
+  }
+  
